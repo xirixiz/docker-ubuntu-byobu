@@ -6,9 +6,13 @@ docker build . -t docker-cli
 ```
 
 # Run the Docker container (byobu)
+```bash
 docker rm -f docker-cli
 docker run --rm -ti --name docker-cli --net host --hostname byobu docker-cli byobu -S work
+```
 
 # Run the Docker container (shell only)
+```bash
 docker rm -f docker-cli
 docker run --rm -ti --hostname byobu docker-cli bash
+```
