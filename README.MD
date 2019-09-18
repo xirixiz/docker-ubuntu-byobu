@@ -1,7 +1,9 @@
 [![BuyMeCoffee][buymecoffeebedge]][buymecoffee]
 
 # Build the Docker image (docker-cli)
+```bash
 docker build . -t docker-cli
+```
 
 # Run the Docker container (byobu)
 docker rm -f docker-cli
