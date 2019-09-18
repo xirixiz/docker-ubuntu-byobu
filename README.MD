@@ -1,5 +1,7 @@
 #### Build the Docker image (docker-cli)
-_This component will set up the following platforms._
+# Afvalwijzer
+
+[![BuyMeCoffee][buymecoffeebedge]][buymecoffee]
 docker build . -t docker-cli
 
 #### Run the Docker container (byobu)
