@@ -1,5 +1,5 @@
 #### Build the Docker image (docker-cli)
-**This component will set up the following platforms.**
+_This component will set up the following platforms._
 docker build . -t docker-cli
 
 #### Run the Docker container (byobu)
