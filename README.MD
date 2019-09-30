@@ -1,6 +1,9 @@
 [![BuyMeCoffee][buymecoffeebedge]][buymecoffee]
 
 # Build the Docker image (docker-cli)
+
+Currently the a "home" folder will be added to the image. This is due to limitations on a local firewall level retricted by the company, disaallowing mounting a volume in a container. If you're not limited, I advise to mount a "home" folder (and maybe /etc as well) as a volume so all settings will be preserved.
+
 ```bash
 docker build . -t docker-cli
 ```
