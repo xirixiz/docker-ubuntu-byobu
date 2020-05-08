@@ -7,6 +7,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 RUN apt-get update --fix-missing && \
     apt-get install -y --no-install-recommends \
+    apt-utils \
     byobu \
     ca-certificates \
     build-essential \
